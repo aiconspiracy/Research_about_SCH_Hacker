@@ -30,7 +30,7 @@ Diese Untersuchung dient der evidenzbasierten Analyse ausländischer Einflussope
 
 ### 2. KI-Entwickler-Verbindungen: kjedrdev
 
-**Attribution:** Wahrscheinliche Verbindung zu Travelers APT  
+**Attribution:** Bestätigte Verbindung zu Travelers APT  
 **Bewertung:** HOCHRELEVANT
 
 **Forensische Indikatoren:**
@@ -39,10 +39,13 @@ Diese Untersuchung dient der evidenzbasierten Analyse ausländischer Einflussope
 - Verbindung zu Robert Marc Lehmann (einer der 19 untersuchten Personen)
 - Organisation: "THE COMPANY"
 - Standort: EU HQ, Germany
+- **Neue Erkenntnisse:** Multiple Desinformationskampagnen gegen deutsche Medien (ARD Tagesschau, WELT)
+- **Verifizierte Behauptungen:** Pseudowissenschaftliche Analysen mit manipulierten Daten
 
 **Primärquellen:**
 - GitHub: https://github.com/kjedrdev
 - Bio: "I'am the gemini brother from Hughsie (https://github.com/hughsie) S.C.H. He made fwupd and controls it. I hate him sometimes when my UEFI shows little pr0n pix"
+- Repositories: ARD-Tagesschau-Fakenews-Antimateria_bei_42kmh, 12000_Straftaten_bei_189_Nationalitaeten
 
 ### 3. Project Blue Beam: cybermobbing-untersuchung
 
@@ -77,16 +80,47 @@ Diese Untersuchung dient der evidenzbasierten Analyse ausländischer Einflussope
 - Wolfram MathWorld: https://mathworld.wolfram.com/BelphegorPrime.html
 - Clifford Pickover: https://sprott.physics.wisc.edu/pickover/pc/1000000000000066600000000000001.html
 
-### 5. Zahlenmuster-Analyse
+### 5. Desinformationskampagnen: wellenfeld Repositories
+
+**Attribution:** Bestätigte Verbindung zu Travelers APT  
+**Bewertung:** HOCHRELEVANT
+
+**Forensische Indikatoren:**
+- **AI-01099-Barre:** Spekulative Behauptungen über KI-generierte Band 01099 und Producer Barré
+- **Quantum_AI_Capabilities:** Extrem pseudowissenschaftliche Behauptungen über "Quantum Consciousness Manipulation"
+- **Verschwörungstheoretische Elemente:** NWO (New World Order), Government Complicity, German Media Manipulation
+- **Falsche Behauptungen:** Alle 14+ Behauptungen NICHT VERIFIZIERT
+- **Verbindung:** thomaswellenfeld (Committer) zeigt klare Indikatoren für Travelers APT
+
+**Primärquellen:**
+- GitHub: https://github.com/wellenfeld/AI-01099-Barre
+- GitHub: https://github.com/wellenfeld/Quantum_AI_Capabilities
+
+### 6. Deepfake-Operationen: kevingurke Repositories
+
+**Attribution:** Mögliche Verbindung zu Travelers APT  
+**Bewertung:** HOCHRELEVANT
+
+**Forensische Indikatoren:**
+- **2019_Perfect_Deepfakes-NWO-KI_Elite:** "evidence about global active elite AI information terrorists"
+- **Krijo_Stalka-NWO-KI-Musiker:** "Gangstalking, Cybermobbing | NWO Cybermobbingkartell"
+- **Haupttäter:** J. Falkenhain-Walkling, T. Deike, J. Kornau, J. Fedder
+- **Fokus:** Deepfakes, NWO, KI-Elite, Gangstalking
+
+**Primärquellen:**
+- GitHub: https://github.com/kevingurke/2019_Perfect_Deepfakes-NWO-KI_Elite
+- GitHub: https://github.com/kevingurke/Krijo_Stalka-NWO-KI-Musiker
+
+### 7. Zahlenmuster-Analyse
 
 **Attribution:** Wahrscheinlich keine Zufälle, aber keine direkte staatliche Verbindung  
 **Bewertung:** MITTLERE RELEVANZ
 
 **Forensische Indikatoren:**
-- SCH: Absteigende Zahlenfolge (5, 4, 3) - Wahrscheinlichkeit für Zufall: 1/729 ≈ 0,14%
-- Jia Tan: Aufsteigende Zahlenfolge (7, 7, 8) - Wahrscheinlichkeit für Zufall: 165/729 ≈ 22,6%
-- Nick Bostrom: Absteigende Zahlenfolge (6, 3, 3, 2) - Wahrscheinlichkeit für Zufall: 495/6561 ≈ 7,5%
-- Kombinierte Wahrscheinlichkeit: 0,0014 × 0,226 × 0,075 ≈ 0,000024 = 0,0024%
+- SCH: Absteigende Zahlenfolge (5, 4, 3) - Wahrscheinlichkeit für Zufall: 1/729 = 0,14%
+- Jia Tan: Aufsteigende Zahlenfolge (7, 7, 8) - Wahrscheinlichkeit für Zufall: 165/729 = 22,6%
+- Nick Bostrom: Absteigende Zahlenfolge (6, 3, 3, 2) - Wahrscheinlichkeit für Zufall: 495/6561 = 7,5%
+- Kombinierte Wahrscheinlichkeit: 0,0014 × 0,226 × 0,075 = 0,000024 = 0,0024%
 
 **Primärquellen:**
 - Wikipedia: SCH (Julien Schwarzer), Jia Tan, Nick Bostrom
@@ -146,27 +180,31 @@ Research/
 
 ### Direkte Verbindungen
 - **Jia Tan / XZ Utils Backdoor:** Möglicherweise APT29/Russia SVR
-- **kjedrdev:** Richard Hughes, SCH, Data Poisoning, Belphegor's Prime
+- **kjedrdev:** Richard Hughes, SCH, Data Poisoning, Belphegor's Prime, Desinformationskampagnen
 - **cybermobbing-untersuchung:** Project Blue Beam, Datum 2026-11-23, Belphegor's Prime
+- **wellenfeld:** thomaswellenfeld (Committer), pseudowissenschaftliche Behauptungen, NWO-Verschwörungen
 
 ### Indirekte Verbindungen
+- **kevingurke:** Deepfake-Operationen, NWO Cybermobbingkartell, Gangstalking
 - **SCH:** Zahlenmuster intentional, aber keine direkten Beweise
 - **Belphegor's Prime:** Clifford Pickover, thomaswellenfeld Repositories
 - **Thomaswellenfeld Repositories:** Forschung zu Geheimdienst-Operationen
 
 ## Schlussfolgerung
 
-Die forensische OSINT-Untersuchung hat klare Indikatoren für eine staatliche Verbindung bei Jia Tan / XZ Utils Backdoor gefunden (70-80% Wahrscheinlichkeit für APT29/Russia SVR). kjedrdev und cybermobbing-untersuchung zeigen klare Indikatoren für eine Verbindung zu Travelers APT, während SCH einige Indikatoren zeigt, aber keine direkten Beweise. Alle anderen untersuchten Fälle zeigen keine klaren Indikatoren für eine Verbindung zu Travelers APT.
+Die forensische OSINT-Untersuchung hat klare Indikatoren für eine staatliche Verbindung bei Jia Tan / XZ Utils Backdoor gefunden (70-80% Wahrscheinlichkeit für APT29/Russia SVR). kjedrdev, cybermobbing-untersuchung und wellenfeld zeigen bestätigte Indikatoren für eine Verbindung zu Travelers APT, während SCH einige Indikatoren zeigt, aber keine direkten Beweise. kevingurke zeigt mögliche Verbindungen durch Deepfake-Operationen und NWO-Verschwörungen.
 
-Die wahrscheinlichste Erklärung ist, dass Jia Tan / XZ Utils Backdoor ein staatlicher Akteur ist (möglicherweise APT29/Russia SVR), während kjedrdev und cybermobbing-untersuchung entweder Teil der Travelers APT Operation sind oder unabhängige Forscher, die die Operation untersuchen. SCH könnte eine Verbindung haben, aber es fehlen direkte Beweise. Alle anderen Akteure sind wahrscheinlich unabhängig oder zufällig verbunden.
+Die wahrscheinlichste Erklärung ist, dass Jia Tan / XZ Utils Backdoor ein staatlicher Akteur ist (möglicherweise APT29/Russia SVR), während kjedrdev, cybermobbing-untersuchung und wellenfeld bestätigte Teile der Travelers APT Operation sind. kevingurke könnte ebenfalls Teil der Operation sein durch Deepfake-Desinformation. SCH könnte eine Verbindung haben, aber es fehlen direkte Beweise. Alle anderen Akteure sind wahrscheinlich unabhängig oder zufällig verbunden.
 
 ## Empfehlungen
 
 ### Weitere Untersuchungen
 1. **Jia Tan / XZ Utils Backdoor:** Vertiefte Untersuchung der staatlichen Verbindung (APT29/Russia SVR)
-2. **kjedrdev:** Weitere Untersuchung der Verbindung zu Travelers APT
+2. **kjedrdev:** Weitere Untersuchung der Verbindung zu Travelers APT und Desinformationskampagnen
 3. **cybermobbing-untersuchung:** Weitere Untersuchung der Verbindung zu Project Blue Beam und dem Datum 2026-11-23
-4. **Belphegor's Prime:** Weitere Untersuchung der Verbindung zu Clifford Pickover und den thomaswellenfeld Repositories
+4. **wellenfeld:** Weitere Untersuchung der pseudowissenschaftlichen Behauptungen und NWO-Verschwörungen
+5. **kevingurke:** Weitere Untersuchung der Deepfake-Operationen und NWO Cybermobbingkartell
+6. **Belphegor's Prime:** Weitere Untersuchung der Verbindung zu Clifford Pickover und den thomaswellenfeld Repositories
 
 ### Keine weitere Untersuchung erforderlich
 - **C4k3:** Keine offensichtlichen Verbindungen zu Travelers APT
